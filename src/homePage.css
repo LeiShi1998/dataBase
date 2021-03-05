@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul.breadcrumb {
+    margin-top: 8px;
+    padding: 8px 16px;
+    list-style: none;
+    background-color: #eee;
+    min-width: 615px;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 16px;
+  
+}
+
+ul li .crumb{
+  font: 16px "PingFang SC";
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+    
+}
+
+a:link { text-decoration: none;color: black}
+a:active { text-decoration:blink}
+a:visited { text-decoration: none;color: black}
+a:hover { text-decoration:underline;color: red}
+
+.logo{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.container{
+  min-width: 600px;
+}
+
+.search-box{
+  width:100%;
+}
+
+.search-box .form{
+  margin:auto;
+  width:50%;
+  min-width:600px;
+  height:50px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+
+
+.form select{
+  height: 50px;
+  width: 30%;
+  font-size: 15px;
+  position: absolute;
+  border-radius:  30px 0 0 30px;
+  text-align: center;
+  outline: none;
+  left:0;
+  top:0;
+  text-indent: 2em;
+}
+
+
+
+.form .textfield{
+  outline: none;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  width:100%;
+  border-radius: 30px;
+  padding-left: 33%;
+  padding-right: 23%;
+  box-sizing: border-box;
+  border: 1px solid #333;
+}
+
+.form .go{
+  position: absolute;
+  right:-2px;
+  top:0;
+  height: 50px;
+  width:20%;
+  border-radius: 0 30px 30px 0;
+  padding-right: 2px;
+  font-size: 22px;
+  border: 1px solid #333;
+  outline: none;
+}
+
+ul.index{
+  text-align: center;
+  list-style: none;
+}
+
+ul.index li{
+  display: inline;
+}
+
+
+
+footer
+{
+  background-color: #EEEEEE;
+  text-align: center;
+}
+
+
+
+.box1 {
+  margin-top: 100px;
+  background: #EEEEEE;
+}
+.box1 ul {
+  clear: both;
+  overflow: hidden;
+}
+.box1 ul li {
+  width: 28%;
+  height: auto;
+  margin-bottom: 5px;
+  float: left;
+}
+.box1 ul li {
+  margin: 2%;
+}

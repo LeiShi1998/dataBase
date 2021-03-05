@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+ul.breadcrumb {
+    margin-top: 8px;
+    padding: 8px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 16px;
+}
+
+ul li .crumb{
+  font: 16px "PingFang SC";
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+    font: 16px "PingFang SC";
+}
+
+.crumb:link { text-decoration: none;color: black}
+.crumb:visited { text-decoration: none;color: black}
+.crumb:hover { text-decoration:underline;color: red}
+
+
+
+.search-box{
+  width:100%;
+}
+
+.search-box .form{
+  margin:auto;
+  width:50%;
+  min-width:600px;
+  height:50px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+
+
+.form select{
+  height: 50px;
+  width: 30%;
+  font-size: 15px;
+  position: absolute;
+  border-radius:  30px 0 0 30px;
+  text-align: center;
+  outline: none;
+  left:0;
+  top:0;
+  text-indent: 2em;
+}
+
+
+
+.form .textfield{
+  outline: none;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  width:100%;
+  border-radius: 30px;
+  padding-left: 33%;
+  padding-right: 23%;
+  box-sizing: border-box;
+  border: 1px solid #333;
+}
+
+.form .go{
+  position: absolute;
+  right:-2px;
+  top:0;
+  height: 50px;
+  width:20%;
+  border-radius: 0 30px 30px 0;
+  padding-right: 2px;
+  font-size: 22px;
+  border: 1px solid #333;
+  outline: none;
+}
+
+.content{
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.content .paragraph{
+  margin: 30px;
+}
+
+footer
+{
+  background-color: #EEEEEE;
+  text-align: center;
+
+}
+
+.bootstrap-table{
+  display: table ;
+  table-layout: fixed;
+  word-break:break-all;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+td img{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 90%;
+}
+
+.title{
+  width: 30%;
+  font-size: 18px;
+  height: 50px;
+}
+
+.name{
+  width: 10%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+td a.textUrl{
+  text-decoration: underline;
+}
+
+.infor{
+  text-align: center;
+}
+
+dl{
+  margin: 20px;
+  display:inline-block;
+  width:95%;
+  
+  border-radius: 15px;
+  background-color:#ccc;
+}
+
+dd{
+  margin: 10px;
+  font-size: 18px;
+  float:left;
+  width:30%;
+}
+
+dt{
+  margin: 10px;
+  font-size: 18px;
+  float: left;
+  width:60%;
+  font-weight: normal;
+  word-break: break-all;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 引入bootstrap样式 -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 引入bootstrap-table样式 -->
+    <link href="https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- bootstrap-table.min.js -->
+    <script src="https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+  <link rel="stylesheet" href="Page.css">
+  <title>About Us</title>
+</head>
+<body>
+  <ul class="breadcrumb">
+    <li><a class="crumb" href="homePage.html">HOME</a></li>
+    <li><a class="crumb" href="Data.html">DATA</a></li>
+    <li><a class="crumb" href="Family.php">FAMILY</a></li>
+    <li><a class="crumb" href="Species.php">SPECIES</a></li>
+    <li><a class="crumb" href="Download.html">DOWNLOAD</a></li>
+    <li><a class="crumb" href="Aboutus.html">ABOUT US</a></li>
+  </ul>
+  <div class="search-box">
+    <div class="form">
+      <form action="Search.php" method="get">
+        <select name="options">
+          <option value="searchkey">ALL</option>
+          <option value="family">Protein Family</option>
+          <option value="species">Species</option>
+          <option value="idweb">Protein ID</option>
+        </select>
+        <input class="textfield" type="text" name="pname">
+        <input class="go" type="submit" value="Go">
+      </form>
+    </div>
+  </form>
+</div>
+
+<div class="content">
+  <div class="paragraph">
+    <h2>Data</h2>
+  </div>
+  <table>
+    <tr>
+      <td rowspan="5" class="picture">
+        <img src="20171010.AllMatrix2.bmp" alt="">
+      </td>
+      <td class="name">Name</td>
+      <td class="title">Selenoprotein algae statistical chart</td>
+    </tr>
+    <tr>
+      <td class="name">Keys</td>
+      <td class="title">Algae;Selenoprotein</td>
+    </tr>
+    <tr>
+      <td class="name">Author</td>
+      <td class="title">JiangLiang</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+
+
+    
+</div>
+
+<footer>
+  Copyright ©2017-2018 College of Life Sciences and Oceanography Shenzhen University<br>
+  Address: 1066 xueyuan avenue, nanshan district, shenzhen, China<br>
+  Phone: +86-0755-26536629, Fax: +86-0755-26534274, Postal Code: 518055<br>Email: jiangliang@szu.edu.cn<br>
+</footer>
+
+</body>
+</html>
